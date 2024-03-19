@@ -1,0 +1,24 @@
+{
+  "name": "@lzcli/cli",
+  "version": "0.0.0",
+  "description": "lz-cli 脚手架主包",
+  "author": "乱粥 <1259857279@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "bin": {
+    "lz-cli": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node ./__tests__/cli.test.js"
+  },
+  "type": "module"
+}
