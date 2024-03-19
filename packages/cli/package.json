@@ -20,5 +20,10 @@
   "scripts": {
     "test": "node ./__tests__/cli.test.js"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "dirname-filename-esm": "^1.1.1",
+    "fs-extra": "^11.2.0"
+  }
 }
